@@ -1,0 +1,56 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 150px;
+    margin: 0 4rem 0 8rem;
+
+    &__text{
+        padding-top: 8.5rem;
+        &--header{
+            font-size: 4.75rem;
+        }
+
+        &--p{
+            font-size: 18px;
+            max-width: 430px;
+            margin-top: 55px;
+        }
+
+        &--button{
+            margin-top: 2rem;
+            border: 1px var(--gray-color) solid;
+            border-radius: 15px;
+            background-color: transparent;
+            padding: 20px 30px;
+            font-size: 18px;
+            background-color: var(--black-color);
+            color: var(--white-color);
+        }
+
+        &--clients{
+            margin-top: 7rem;
+        }
+
+        &--clients > ul{
+            display: flex;
+            align-items: center;
+        }
+
+        &--clients > ul > li{
+            margin-right: 40px;
+        }
+
+        &--clients > ul > li:last-child{
+            margin-right: 0px;
+        }
+    }
+
+    &__image{
+        &--container{
+            padding-top: 50px;
+            width: 480px;
+        }
+    }
+
+}
