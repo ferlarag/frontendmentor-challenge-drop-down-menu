@@ -1,0 +1,40 @@
+.features{
+    position: absolute;
+    top: 2rem;
+    right: 20rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    background-color: var(--white-color);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+
+    &__items{
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        align-items: center;
+        color: var(--black-color);
+        gap: 1rem 0.5rem;
+
+        & :nth-child(2n-1){
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
+
+.company{
+    position: absolute;
+    top: 2rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    background-color: var(--white-color);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+
+    &__items{
+        display: grid;
+        grid-template-rows: 25px 1fr;
+        align-items: center;
+        color: var(--black-color);
+        gap: 1rem;
+    }
+}
